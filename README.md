@@ -1,16 +1,43 @@
-# estudo
+# GitHub Profile Viewer - Flutter Project
 
-A new Flutter project.
+O **GitHub Profile Viewer** é um aplicativo Flutter que permite aos usuários visualizar perfis do GitHub, incluindo informações do usuário, repositórios próprios e repositórios marcados como favoritos. Com este aplicativo, você pode facilmente pesquisar e explorar os detalhes do GitHub de qualquer usuário.
 
-## Getting Started
+## Pré-requisitos
 
-This project is a starting point for a Flutter application.
+Certifique-se de ter o ambiente de desenvolvimento Flutter configurado em sua máquina. Se você ainda não configurou o ambiente Flutter, siga as instruções em [flutter.dev](https://flutter.dev/docs/get-started/install) para instalar o Flutter e suas dependências.
 
-A few resources to get you started if this is your first Flutter project:
+## Como Executar o Projeto
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+1. **Clone o repositório:**
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+   Abra seu terminal e navegue até o diretório onde você deseja clonar o repositório. Em seguida, execute o seguinte comando:
+
+   ```bash
+   git clone https://github.com/SEU_USUARIO/github-profile-viewer.git
+
+2. **Acesse o diretório do projeto:**
+
+   Entre no diretório do projeto usando o comando:
+   ```bash
+   cd github-profile-viewer
+
+## Modificar o Nome de Usuário:
+
+   Abra o arquivo lib/main.dart e localize a função searchUser() no código. Modifique a variável username para o nome de usuário do GitHub que você deseja visualizar:
+   
+   ```bash
+   final username = 'NOME_DO_USUARIO';
+   ```
+
+   1. **Instale as Dependências:**
+   Execute o seguinte comando para instalar as dependências do projeto:
+   ```bash
+   flutter pub get
+   ```
+2. **Inicie o Aplicativo:**
+
+   Agora você pode iniciar o aplicativo Flutter executando o seguinte comando:
+   ```bash
+   flutter run
+   ```
+   O aplicativo será compilado e lançado em um emulador ou dispositivo conectado.
